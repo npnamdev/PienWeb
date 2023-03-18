@@ -201,7 +201,98 @@ nav#sidebar-page li a .link-title {
     width: 100%;
 }
 
-#content-page h2 {
-    font-size: 35px;
+#wp-content-page .row-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#wp-content-page .row-1 .box-left {
+    width: 70%;
+}
+
+#wp-content-page .row-1 .box-left .box-banner {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(252, 248, 248);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#wp-content-page .row-1 .box-left .box-banner img {
+    width: 100%;
+    margin-top: -65px;
+}
+
+#wp-content-page .row-1 .box-left .box-outstanding {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.box-outstanding h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+.box-outstanding ul.quiz-outstanding {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.box-outstanding ul.quiz-outstanding li {
+    list-style: none;
+    width: 31.5%;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.box-outstanding ul.quiz-outstanding li a {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    height: 150px;
+}
+
+.box-outstanding ul.quiz-outstanding li a img {
+    width: 100%;
+}
+
+.box-outstanding ul.quiz-outstanding li p {
+    font-size: 15px;
     font-weight: 400;
+    margin-top: 12px;
+    padding: 0px 5px;
+
+}
+
+#wp-content-page .row-1 .box-right {
+    border: 1px solid #efe8e8;
+    width: 28%;
+    height: 673px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#wp-content-page .row-1 .box-right h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#wp-content-page .row-1 .box-right p {
+
+    line-height: 1.5;
+}
+
+#wp-content-page .row-2 {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 20px;
 }
