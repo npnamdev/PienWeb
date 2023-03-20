@@ -23,9 +23,15 @@
             </div>
             <ul id="main-menu">
                 <li>
-                    <a href="#" class="active">
+                    <a href="./index.html" class="active">
                         <i class='bx bx-grid-alt link-icon'></i>
                         <span class="link-title">Trang chủ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./news.html">
+                        <i class='bx bx-news link-icon'></i>
+                        <span class="link-title">Tin tức</span>
                     </a>
                 </li>
                 <li>
@@ -38,12 +44,6 @@
                     <a href="#">
                         <i class='bx bx-book-open link-icon'></i>
                         <span class="link-title">Tài liệu</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class='bx bx-news link-icon'></i>
-                        <span class="link-title">Tin tức</span>
                     </a>
                 </li>
                 <li>
@@ -74,12 +74,12 @@
                 <div class="search">
                     <i class='bx bx-search search-icon'></i>
                     <input type="text" placeholder="Tìm kiếm đề thi..." class="search-input">
-                    <i class='bx bx-x x-icon'></i>
+                    <!-- <i class='bx bx-x x-icon'></i> -->
                 </div>
                 <div class="box-profile">
                     <i class='bx bx-message-alt-detail icon'></i>
                     <i class='bx bx-bell icon icon-bell'></i>
-                    <img class="avatar" src="./public//images//avatar.jpg">
+                    <img class="avatar" src="./public/images/avatar.jpg">
                 </div>
             </div>
             <div id="content-page">
@@ -90,64 +90,327 @@
                                 src="https://cdn.pixabay.com/photo/2016/06/28/05/10/laptop-1483974_960_720.jpg" alt="">
                         </div>
                         <div class="box-outstanding">
-                            <h3>Bài Viết Nổi Bật</h3>
-                            <ul class="quiz-outstanding">
+                            <div class="box-head-quiz">
+                                <h3 class="title-row">Bài Thi Nổi Bật</h3>
+                                <a href="" class="show-all">Xem tất cả</a>
+                            </div>
+                            <ul class="box-quiz">
                                 <li>
-                                    <a href="">
-                                        <img
-                                            src="https://cdn.pixabay.com/photo/2015/07/17/22/42/startup-849804_960_720.jpg">
+                                    <a class="quiz-link" href="">
+                                        <div class="quiz-link-image">
+                                            <img
+                                                src="https://png.pngtree.com/png-clipart/20220603/original/pngtree-comic-speech-bubbles-with-text-quiz-png-image_7909859.png">
+                                        </div>
+                                        <div class="quiz-link-buttom">
+                                            <div class="quiz-link-title">
+                                                Lập trình hướng đối tượng
+                                            </div>
+                                            <div class="quiz-link-author">
+                                                <div class="quiz-link-author-left">
+                                                    <img src="./public/images/nam.jpg">
+                                                    <span>Phương Nam</span>
+                                                </div>
+                                                <div class="quiz-link-author-right">
+                                                    <i class='bx bx-time icon'></i>
+                                                    <span>04/11/2023</span>
+                                                </div>
+                                            </div>
+                                            <div class="quiz-link-info">
+                                                <div class="box-left-info">
+                                                    <i class='bx bx-question-mark icon'></i>
+                                                    <span>100 Câu</span>
+                                                </div>
+                                                <div class="box-right-info">
+                                                    <i class='bx bx-time-five icon'></i>
+                                                    <span>30 phút</span>
+                                                </div>
+                                            </div>
+                                            <button class="quiz-link-btn">Bắt đầu</button>
+                                        </div>
                                     </a>
-                                    <p>Ôn tập tin 1 - 117 câu</p>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        <img
-                                            src="https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822__340.jpg">
+                                    <a class="quiz-link" href="">
+                                        <div class="quiz-link-image">
+                                            <img
+                                                src="https://png.pngtree.com/png-vector/20220525/ourmid/pngtree-comic-speech-bubbles-with-text-quiz-png-image_4731970.png">
+                                        </div>
+                                        <div class="quiz-link-buttom">
+                                            <div class="quiz-link-title">
+                                                Ôn tập tin 1 - 117 câu
+                                            </div>
+                                            <div class="quiz-link-author">
+                                                <div class="quiz-link-author-left">
+                                                    <img src="./public/images/nam.jpg">
+                                                    <span>Phương Nam</span>
+                                                </div>
+                                                <div class="quiz-link-author-right">
+                                                    <i class='bx bx-time icon'></i>
+                                                    <span>04/11/2023</span>
+                                                </div>
+                                            </div>
+                                            <div class="quiz-link-info">
+                                                <div class="box-left-info">
+                                                    <i class='bx bx-question-mark icon'></i>
+                                                    <span>100 Câu</span>
+                                                </div>
+                                                <div class="box-right-info">
+                                                    <i class='bx bx-time-five icon'></i>
+                                                    <span>30 phút</span>
+                                                </div>
+                                            </div>
+                                            <button class="quiz-link-btn">Bắt đầu</button>
+                                        </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        <img
-                                            src="https://cdn.pixabay.com/photo/2015/05/31/10/51/technology-791029_960_720.jpg">
+                                    <a class="quiz-link" href="">
+                                        <div class="quiz-link-image">
+                                            <img
+                                                src="https://png.pngtree.com/png-clipart/20220603/original/pngtree-megaphone-banner-quiz-png-image_7903863.png">
+                                        </div>
+                                        <div class="quiz-link-buttom">
+                                            <div class="quiz-link-title">
+                                                Phân tích và thiết kế hệ thống
+                                            </div>
+                                            <div class="quiz-link-author">
+                                                <div class="quiz-link-author-left">
+                                                    <img src="./public/images/nam.jpg">
+                                                    <span>Phương Nam</span>
+                                                </div>
+                                                <div class="quiz-link-author-right">
+                                                    <i class='bx bx-time icon'></i>
+                                                    <span>04/11/2023</span>
+                                                </div>
+                                            </div>
+                                            <div class="quiz-link-info">
+                                                <div class="box-left-info">
+                                                    <i class='bx bx-question-mark icon'></i>
+                                                    <span>100 Câu</span>
+                                                </div>
+                                                <div class="box-right-info">
+                                                    <i class='bx bx-time-five icon'></i>
+                                                    <span>30 phút</span>
+                                                </div>
+                                            </div>
+                                            <button class="quiz-link-btn">Bắt đầu</button>
+                                        </div>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="box-right">
-                        <h3>Danh mục</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iste ipsam voluptatum
-                            maxime fuga, illum aperiam corporis. Magnam exercitationem quaerat distinctio, fuga quo unde
-                            minima necessitatibus voluptate quos nulla, ipsum maxime quibusdam velit, hic eum ut?
-                            Recusandae, itaque tempora sed possimus voluptas tenetur cupiditate qui voluptate
-                            reprehenderit, et veniam saepe, id laudantium </p>
+                        <h3 class="catatory-head">Danh mục</h3>
+                        <ul class="box-catagory">
+                            <li>
+                                <a href="">
+                                    <span class="category-title">CNTT</span>
+                                    <span class="category-number">(30)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">Tiếng Anh</span>
+                                    <span class="category-number">(80)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">Tiếng Trung</span>
+                                    <span class="category-number">(90)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">QTKD</span>
+                                    <span class="category-number">(10)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">Cơ Khí</span>
+                                    <span class="category-number">(20)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">CNTT</span>
+                                    <span class="category-number">(30)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">Tiếng Anh</span>
+                                    <span class="category-number">(80)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">Tiếng Trung</span>
+                                    <span class="category-number">(90)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">QTKD</span>
+                                    <span class="category-number">(10)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="category-title">Cơ Khí</span>
+                                    <span class="category-number">(20)</span>
+                                </a>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
 
                 <div class="row-2">
-                    Các định nghĩa của văn học đã thay đổi theo thời gian: đó là một "định nghĩa phụ thuộc vào văn
-                    hóa".[1] Ở Tây Âu trước thế kỷ 18, văn học biểu thị tất cả các cuốn sách và văn bản. Một ý nghĩa hạn
-                    chế hơn của thuật ngữ này xuất hiện trong thời kỳ Lãng mạn, trong đó nó bắt đầu phân định là các tác
-                    phẩm viết "giàu trí tưởng tượng".[2][3] Các cuộc tranh luận đương đại về những gì cấu thành nên văn
-                    học có thể được xem là trở lại với các quan niệm cũ hơn, bao quát hơn; nghiên cứu văn hóa, ví dụ,
-                    lấy làm chủ đề phân tích cả hai thể loại phổ biến và thiểu số, bên cạnh các tác phẩm kinh điển.
-
-                    Định nghĩa đánh giá giá trị của văn học coi nó chỉ bao gồm những tác phẩm có chất lượng cao hoặc sự
-                    khác biệt, tạo thành một phần của truyền thống được gọi là belles-lettres ('tác phẩm giá trị').[4]
-                    Kiểu định nghĩa này được sử dụng trong Encyclopædia Britannica Eleventh Edition (1910-11) khi nó
-                    phân loại văn học là "thể hiện tốt nhất của tư tưởng chuyển thể thành văn bản." [5] Vấn đề trong
-                    quan điểm này là không có định nghĩa khách quan về những gì cấu thành "văn học": bất cứ thứ gì cũng
-                    có thể là văn học, và bất cứ thứ gì mà được coi là văn học đều có khả năng bị loại trừ, vì các đánh
-                    giá về giá trị có thể thay đổi theo thời gian.[4]
-
-                    Định nghĩa hình thức là "văn học" tạo ra hiệu ứng thơ ca; đó là "văn chương" hay "thi pháp" của văn
-                    học phân biệt nó với lời nói thông thường hoặc các loại văn bản khác (ví dụ, báo chí).[6] [7] Jim
-                    Meyer coi đây là một đặc điểm hữu ích trong việc giải thích việc sử dụng thuật ngữ này có nghĩa là
-                    tài liệu được xuất bản trong một lĩnh vực cụ thể (ví dụ: "văn học khoa học "), vì văn bản đó phải sử
-                    dụng ngôn ngữ theo các tiêu chuẩn cụ thể.[8] Vấn đề với định nghĩa chính thức là để nói rằng văn học
-                    đi lệch khỏi cách sử dụng ngôn ngữ thông thường, trước tiên phải xác định những cách sử dụng đó;
-                    điều này thật khó khăn vì " ngôn ngữ thông thường " là một phạm trù không ổn định, khác nhau tùy
-                    theo các phạm trù xã hội và trong lịch sử.[9]
+                    <div class="box-head-quiz">
+                        <h3 class="title-row">Bài Thi Mới nhất</h3>
+                        <a href="" class="show-all">Xem tất cả</a>
+                    </div>
+                    <ul class="box-quiz">
+                        <li>
+                            <a class="quiz-link" href="">
+                                <div class="quiz-link-image">
+                                    <img
+                                        src="https://png.pngtree.com/png-vector/20220525/ourmid/pngtree-comic-speech-bubbles-with-text-quiz-png-image_4731970.png">
+                                </div>
+                                <div class="quiz-link-buttom">
+                                    <div class="quiz-link-title">
+                                        Ôn tập tin 1 - 117 câu
+                                    </div>
+                                    <div class="quiz-link-author">
+                                        <div class="quiz-link-author-left">
+                                            <img src="./public/images/nam.jpg">
+                                            <span>Phương Nam</span>
+                                        </div>
+                                        <div class="quiz-link-author-right">
+                                            <i class='bx bx-time icon'></i>
+                                            <span>04/11/2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="quiz-link-info">
+                                        <div class="box-left-info">
+                                            <i class='bx bx-question-mark icon'></i>
+                                            <span>100 Câu</span>
+                                        </div>
+                                        <div class="box-right-info">
+                                            <i class='bx bx-time-five icon'></i>
+                                            <span>30 phút</span>
+                                        </div>
+                                    </div>
+                                    <button class="quiz-link-btn">Bắt đầu</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="quiz-link" href="">
+                                <div class="quiz-link-image">
+                                    <img
+                                        src="https://png.pngtree.com/png-clipart/20220603/original/pngtree-megaphone-banner-quiz-png-image_7903863.png">
+                                </div>
+                                <div class="quiz-link-buttom">
+                                    <div class="quiz-link-title">
+                                        Phân tích và thiết kế hệ thống
+                                    </div>
+                                    <div class="quiz-link-author">
+                                        <div class="quiz-link-author-left">
+                                            <img src="./public/images/nam.jpg">
+                                            <span>Phương Nam</span>
+                                        </div>
+                                        <div class="quiz-link-author-right">
+                                            <i class='bx bx-time icon'></i>
+                                            <span>04/11/2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="quiz-link-info">
+                                        <div class="box-left-info">
+                                            <i class='bx bx-question-mark icon'></i>
+                                            <span>100 Câu</span>
+                                        </div>
+                                        <div class="box-right-info">
+                                            <i class='bx bx-time-five icon'></i>
+                                            <span>30 phút</span>
+                                        </div>
+                                    </div>
+                                    <button class="quiz-link-btn">Bắt đầu</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="quiz-link" href="">
+                                <div class="quiz-link-image">
+                                    <img
+                                        src="https://png.pngtree.com/png-clipart/20220603/original/pngtree-comic-speech-bubbles-with-text-quiz-png-image_7909859.png">
+                                </div>
+                                <div class="quiz-link-buttom">
+                                    <div class="quiz-link-title">
+                                        Lập trình hướng đối tượng
+                                    </div>
+                                    <div class="quiz-link-author">
+                                        <div class="quiz-link-author-left">
+                                            <img src="./public/images/nam.jpg">
+                                            <span>Phương Nam</span>
+                                        </div>
+                                        <div class="quiz-link-author-right">
+                                            <i class='bx bx-time icon'></i>
+                                            <span>04/11/2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="quiz-link-info">
+                                        <div class="box-left-info">
+                                            <i class='bx bx-question-mark icon'></i>
+                                            <span>100 Câu</span>
+                                        </div>
+                                        <div class="box-right-info">
+                                            <i class='bx bx-time-five icon'></i>
+                                            <span>30 phút</span>
+                                        </div>
+                                    </div>
+                                    <button class="quiz-link-btn">Bắt đầu</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="quiz-link" href="">
+                                <div class="quiz-link-image">
+                                    <img
+                                        src="https://png.pngtree.com/png-vector/20220525/ourmid/pngtree-comic-speech-bubbles-with-text-quiz-png-image_4731970.png">
+                                </div>
+                                <div class="quiz-link-buttom">
+                                    <div class="quiz-link-title">
+                                        Ôn tập tin 1 - 117 câu
+                                    </div>
+                                    <div class="quiz-link-author">
+                                        <div class="quiz-link-author-left">
+                                            <img src="./public/images/nam.jpg">
+                                            <span>Phương Nam</span>
+                                        </div>
+                                        <div class="quiz-link-author-right">
+                                            <i class='bx bx-time icon'></i>
+                                            <span>04/11/2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="quiz-link-info">
+                                        <div class="box-left-info">
+                                            <i class='bx bx-question-mark icon'></i>
+                                            <span>100 Câu</span>
+                                        </div>
+                                        <div class="box-right-info">
+                                            <i class='bx bx-time-five icon'></i>
+                                            <span>30 phút</span>
+                                        </div>
+                                    </div>
+                                    <button class="quiz-link-btn">Bắt đầu</button>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
